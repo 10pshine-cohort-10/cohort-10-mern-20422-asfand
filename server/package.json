@@ -12,6 +12,11 @@
   "keywords": ["notes", "express", "mongodb", "api"],
   "author": "Asfand Yar",
   "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1"
+  },
   "devDependencies": {
     "mocha": "^10.7.3",
     "nodemon": "^3.1.7",
