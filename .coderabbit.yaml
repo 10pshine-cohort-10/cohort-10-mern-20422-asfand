@@ -5,7 +5,10 @@ reviews:
   auto_review:
     base_branches:
       - main
-      - develop
   path_instructions:
-    - path: "**/*"
-      instructions: "Flag missing TypeScript types as HIGH. Flag async/await without try-catch as MEDIUM. Check React component structure and missing prop validation."
+    - path: "server/**/*.js"
+      instructions: "Check for missing error handling in async functions. Ensure all routes use the error middleware. Verify that sensitive data is not logged."
+    - path: "client/**/*.jsx"
+      instructions: "Check React component structure, missing prop validation, and proper cleanup in useEffect hooks."
+    - path: "**/*.test.js"
+      instructions: "Ensure test descriptions are clear and cover edge cases."

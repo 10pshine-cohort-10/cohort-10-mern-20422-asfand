@@ -1,0 +1,16 @@
+{
+  "name": "notes-app-client",
+  "version": "1.0.0",
+  "description": "React frontend for the Notes App",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": ["notes", "react", "vite"],
+  "author": "Asfand Yar",
+  "license": "ISC"
+}
