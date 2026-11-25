@@ -93,7 +93,7 @@ cd server
 npm test
 
 # frontend
-cd client
+cd ../client
 npm test
 ```
 
