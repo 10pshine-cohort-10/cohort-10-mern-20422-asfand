@@ -1,0 +1,27 @@
+{
+  "name": "notes-app-client",
+  "version": "1.0.0",
+  "description": "React frontend for the Notes App",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": ["notes", "react", "vite"],
+  "author": "Asfand Yar",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.14",
+    "jest": "^29.7.0",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/jest-dom": "^6.6.3"
+  }
+}

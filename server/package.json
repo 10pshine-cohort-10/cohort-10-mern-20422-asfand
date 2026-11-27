@@ -1,0 +1,20 @@
+{
+  "name": "notes-app-server",
+  "version": "1.0.0",
+  "description": "Backend API for the Notes App",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "mocha --recursive --exit 'src/**/*.test.js'",
+    "test:coverage": "nyc mocha --recursive --exit 'src/**/*.test.js'"
+  },
+  "keywords": ["notes", "express", "mongodb", "api"],
+  "author": "Asfand Yar",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "nodemon": "^3.1.7",
+    "nyc": "^17.1.0"
+  }
+}
